@@ -4,6 +4,7 @@ import { Pagination, Autoplay, EffectFade, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
+import bannerBook from '../assets/images/banner-book.png';
 
 const HeroSlider = () => {
   const slides = [
@@ -11,13 +12,13 @@ const HeroSlider = () => {
       subTitle: "Since 1938",
       title: "Empowering Education",
       text: "Empowering Education and helping authors achieve their publishing dreams since 1938.",
-      img: "src/assets/images/banner-book.png",
+      img: bannerBook,
     },
     {
       subTitle: "Editors Choice",
       title: "Top 10 Books of the Year to Write Your Future",
       text: "Discover the finest collection of career-focused books and publishing services to help you write your professional future.",
-      img: "src/assets/images/banner-book.png",
+      img: bannerBook,
     },
   ];
 
@@ -41,7 +42,7 @@ const HeroSlider = () => {
                   <span className="relative z-1">
                     {slide.title}
                   </span>
-                  <img src="/src/assets/images/head-back.png" className="absolute -bottom-3 left-50 z-0" alt="head-bg" />
+                  <img src={new URL("../assets/images/head-back.png", import.meta.url).href} className="absolute -bottom-3 left-50 z-0" alt="head-bg" />
                 </h2>
                 <p className="text-red-400 font-semibold text-sm mb-1">{slide.text}</p>
                 <button className="mt-6 px-6 py-3 bg-white text-black rounded-full font-semibold text-sm shadow hover:bg-gray-100 transition-all">

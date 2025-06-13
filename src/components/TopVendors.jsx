@@ -3,49 +3,51 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
-
+import storeLogo1 from '../assets/images/store-logo1.jpg';
+import storeBg1 from '../assets/images/store1.jpg';
+import storeBg2 from '../assets/images/store2.jpg';
 const vendors = [
   {
     id: 1,
     name: 'Online Store',
     products: 5,
-    cover: '/src/assets/images/store1.jpg',
-    logo: '/src/assets/images/store-logo1.jpg',
+    cover: storeBg1,
+    logo: storeLogo1,
   },
   {
     id: 2,
     name: 'Barone LLC.',
     products: 6,
-    cover: '/src/assets/images/store2.jpg',
-    logo: '/src/assets/images/store-logo1.jpg',
+    cover: storeBg2,
+    logo: storeLogo1,
   },
   {
     id: 3,
     name: 'Gregstore',
     products: 3,
-    cover: '/src/assets/images/store1.jpg',
-    logo: '/src/assets/images/store-logo1.jpg',
+    cover: storeBg1,
+    logo: storeLogo1,
   },
   {
     id: 4,
     name: 'Arlene',
     products: 6,
-    cover: '/src/assets/images/store2.jpg',
-    logo: '/src/assets/images/store-logo1.jpg',
+    cover: storeBg2,
+    logo: storeLogo1,
   },
   {
     id: 5,
     name: 'Book House',
     products: 3,
-    cover: '/src/assets/images/store1.jpg',
-    logo: '/src/assets/images/store-logo1.jpg',
+    cover: storeBg1,
+    logo: storeLogo1,
   },
   {
     id: 6,
     name: 'Book Store',
     products: 2,
-    cover: '/src/assets/images/store2.jpg',
-    logo: '/src/assets/images/store-logo1.jpg',
+    cover: storeBg2,
+    logo: storeLogo1,
   },
 ];
 

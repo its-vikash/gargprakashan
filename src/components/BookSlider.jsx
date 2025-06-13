@@ -6,6 +6,15 @@ import { gsap } from 'gsap';
 import { CustomEase } from 'gsap/CustomEase';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import book1Image from '../assets/images/1.jpg';
+import book2Image from '../assets/images/2.jpg';
+import book3Image from '../assets/images/3.jpg';
+import book4Image from '../assets/images/4.jpg';
+import book5Image from '../assets/images/5.jpg';
+import book6Image from '../assets/images/6.jpg';
+import book7Image from '../assets/images/7.jpg';
+import book8Image from '../assets/images/8.jpg';
+import book9Image from '../assets/images/9.jpg';
 gsap.registerPlugin(CustomEase);
 CustomEase.create("bookEase", "0.25, 1, 0.5, 1");
 
@@ -17,63 +26,63 @@ const books = [
     title: 'Rich Dad Poor Dad',
     author: 'Misty Figueroa',
     price: '₹170.00',
-    image: '/src/assets/images/1.jpg',
+    image: book1Image,
   },
   {
     id: 2,
     title: 'The Story of Success',
     author: 'Arthur Gonzalez',
     price: '₹50.89',
-    image: '/src/assets/images/2.jpg',
+    image: book2Image,
   },
   {
     id: 3,
     title: 'My Dearest Darkest',
     author: 'Enrique Wallace',
     price: '₹914.53',
-    image: '/src/assets/images/3.jpg',
+    image: book3Image,
   },
   {
     id: 4,
     title: 'House of Sky and...',
     author: 'Ernesto Wade',
     price: '₹72.99',
-    image: '/src/assets/images/4.jpg',
+    image: book4Image,
   },
   {
     id: 5,
     title: 'Surrounded by...',
     author: 'Georgia Ramirez',
     price: '₹825.85',
-    image: '/src/assets/images/5.jpg',
+    image: book5Image,
   },  
   {
     id: 6,
     title: 'Atomic Habits',
     author: 'James Clear',
     price: '₹499.00',
-    image: '/src/assets/images/6.jpg',
+    image: book6Image,
   }, 
   {
     id: 7,
     title: 'The Psychology of Money',
     author: 'Morgan Housel',
     price: '₹399.00',
-    image: '/src/assets/images/7.jpg',
+    image: book7Image,
   },   
   {
     id: 8,
     title: 'Deep Work',
     author: 'Cal Newport',
     price: '₹599.00',
-    image: '/src/assets/images/8.jpg',
+    image: book8Image,
   },   
   {
     id: 9,
     title: 'Thinking, Fast and Slow',
     author: 'Daniel Kahneman',
     price: '₹799.00',
-    image: '/src/assets/images/9.jpg',
+    image: book9Image,
   },
 ];
 

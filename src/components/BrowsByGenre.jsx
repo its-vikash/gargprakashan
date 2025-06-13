@@ -73,7 +73,7 @@ const BrowseByGenre = () => {
               <SwiperSlide key={idx}>
                 <div className="text-center">
                   <img
-                    src={`/src/assets/images/${num}.jpg`}
+                    src={new URL(`../assets/images/${num}.jpg`, import.meta.url).href}
                     alt={`Book ${num}`}
                     className="rounded-md w-full h-[300px] object-cover mb-4"
                   />
