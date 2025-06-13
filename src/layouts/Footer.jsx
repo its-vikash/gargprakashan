@@ -24,7 +24,7 @@ const Footer = () => {
                         <div className="md:pr-8 md:mr-8 md:border-r border-r-[#554949]">
                             <div className="footer-logo">
                                 <img
-                                    src="src/assets/images/footer-logo.png"
+                                    src={new URL("../assets/images/footer-logo.png", import.meta.url).href}
                                     className="max-w-[150px]"
                                     alt="Garg Prakashan"
                                 />

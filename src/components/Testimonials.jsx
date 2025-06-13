@@ -5,24 +5,26 @@ import { Pagination, Autoplay, EffectFade } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
+import testimonial1Image from '../assets/images/img-1.jpg';
+import testimonial2Image from '../assets/images/img-2.jpg';
 
 const testimonials = [
   {
     name: 'Rohit Kumar',
     role: 'Class 12th Student',
-    image: 'src/assets/images/img-1.jpg',
+    image: testimonial1Image,
     text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus dicta dolorum exercitationem id in incidunt iste laborum minus praesentium qui soluta, tempora temporibus veniam, voluptates.',
   },
   {
     name: 'Shamli Gupta',
     role: 'Class 10th Student',
-    image: 'src/assets/images/img-2.jpg',
+    image: testimonial2Image,
     text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus dicta dolorum exercitationem id in incidunt iste laborum minus praesentium qui soluta, tempora temporibus veniam, voluptates.',
   },
   {
     name: 'Vishal Bhardwaj',
     role: 'Traveller',
-    image: 'src/assets/images/img-1.jpg',
+    image: testimonial1Image,
     text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus dicta dolorum exercitationem id in incidunt iste laborum minus praesentium qui soluta, tempora temporibus veniam, voluptates.',
   },
 ];

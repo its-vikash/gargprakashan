@@ -58,7 +58,7 @@ const Header = () => {
       </div>
       <div className="max-w-[1300px] mx-auto px-6 py-0 flex items-center justify-between xl:px-0">
         <div className="text-2xl font-bold text-red-600 flex items-center">
-          <img src="src/assets/images/logo.png" alt="Garg Prakashan" className="w-full max-w-[150px]" />
+          <img src={new URL("../assets/images/logo.png", import.meta.url).href} alt="Garg Prakashan" className="w-full max-w-[150px]" />
         </div>
         <nav className="flex space-x-6 text-base font-medium">
           <ul className="menu list-none p-0 m-0 flex space-x-6 items-center">

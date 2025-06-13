@@ -95,7 +95,7 @@ const HomePage = () => {
                   <button className="mt-6 px-6 py-2 bg-white text-red-600 font-semibold rounded-full">Shop Now →</button>
                 </div>
                 <div className="mt-6 lg:mt-0">
-                  <img src="/book-mockup.png" alt="Book Mockup" className="w-64" />
+                  <img src={new URL("./assets/images/head-back.png", import.meta.url).href} alt="Book Mockup" className="w-64" />
                 </div>
               </div>
             </SwiperSlide>
